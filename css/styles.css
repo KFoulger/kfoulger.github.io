@@ -4,6 +4,7 @@ body
     padding-left: 20%;
     padding-right: 20%;
     padding-top: 4%;
+    height: 100vh;
 }
 
 #container
@@ -100,7 +101,7 @@ h1
 
 @media screen and (max-width: 600px) {
     body{
-        background-color: blue;
+        background-color: #575757;
         padding-left: 5%;
         padding-right: 5%;
         padding-top: 20%;
