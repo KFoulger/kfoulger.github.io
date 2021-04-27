@@ -100,7 +100,7 @@ h1
 
 @media only screen and (max-width: 600px) {
     body{
-        background-color: #575757;
+        background-color: blue;
         padding-left: 5%;
         padding-right: 5%;
         padding-top: 20%;
