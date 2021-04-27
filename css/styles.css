@@ -1,9 +1,9 @@
 body 
 {
     background-color: #575757;
-    padding-left: 250px;
-    padding-right: 250px;
-    padding-top: 100px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 4%;
 }
 
 #container
@@ -27,64 +27,38 @@ header
 header ul
 {
     list-style-type: none;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 header li 
 {  
     float: right;  
-    margin-top: 7px;
+    margin-top: -3px;
 }
 
-header li a, .dropbtn
+header li a
 {  
     color: #c9c9c9;  
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
+    font-size: 120%;
     font-weight:700;
     padding: 20px;
     text-decoration: none;  
 }
 
-header li.dropdown
+#namebutton 
 {
-    display: inline-block;
-}
-
-.dropdown-content
-{
-    display: none;
-    position: absolute;
-    background-color: #303030;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a
-{
-    color: #c9c9c9;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-
-.dropdown-content a:hover
-{
-    background-color: #242424;
-}
-
-.dropdown:hover .dropdown-content
-{
-    display: block;
+    font-size: 200%;
+    background-position: -50px;
 }
 
 #navBorder
 {
     border-left: 1px solid #bbb;
     border-right: 1px solid #bbb;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #navItem:hover
@@ -101,7 +75,7 @@ p
 {
     color: #c9c9c9;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 25dpi;
+    font-size: 150%;
 }
 
 h1
@@ -122,4 +96,76 @@ h1
 {
     color: #a7a7a7;
     text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: #575757;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 20%;
+    }
+
+    #container{
+        width: 20%;
+        height: 10%;
+    }
+
+    header {
+    background-color: #303030;  
+    position: fixed;  
+    left: 0;  
+    right: 0;  
+    top: 0;  
+    height: 12%;   
+    align-items: center; 
+    box-shadow: 0 0 2% 0 black;
+    }
+
+    header ul{
+        list-style-type: none;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    header li {  
+        float: left;  
+        margin-top: 12%;
+    }
+
+    header li a{  
+        color: #c9c9c9;  
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 80%;
+        font-weight:700;
+        padding: 0;
+        text-decoration: none; 
+    }
+
+    #navBorder{
+    border-left: 1px solid #bbb;
+    border-right: 1px solid #bbb;
+    width: 32.7%;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    }
+
+    #namebar{
+        margin-top: -22%;
+    }
+
+    #namebutton{
+        font-size: 200%;
+        background-position: 0;
+    }
+
+    h1{
+        font-size: 180%;
+    }
+
+    p{
+        font-size: 100%;
+    }
+
 }
