@@ -87,6 +87,14 @@ h1
     font-weight: bold;
 }
 
+h2
+{
+    color: #c9c9c9;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+}
+
 #hyper
 {
     color: #ffffff;
@@ -97,6 +105,44 @@ h1
 {
     color: #a7a7a7;
     text-decoration: underline;
+}
+
+#container-1-left
+{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+#container-1-right
+{
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+.thinTextBox
+{
+    width: 75%;
+    margin-bottom: 5%;
+}
+
+.fatTextBox
+{
+    width: 75%;
+    padding-bottom: 50%;
+}
+
+.btn
+{
+    width: 25%;
+    font-size: 100%;
+}
+
+label
+{
+    color: #c9c9c9;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 @media screen and (max-width: 600px) {
@@ -166,8 +212,22 @@ h1
         font-size: 180%;
     }
 
+    h2{
+        font-size: 140%;
+    }
+
     p{
         font-size: 100%;
     }
 
+    #container-1-left{
+        width: 100%;
+        float: none;
+        padding-bottom: 5%;
+    }
+
+    #container-1-right{
+        width: 100%;
+        float: none;
+    }
 }
